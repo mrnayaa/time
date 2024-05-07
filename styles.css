@@ -1,0 +1,350 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    overflow-y: hidden;
+    background-color: white;
+  }
+  
+  @font-face {
+    font-family: 'bonto-regular';
+    src: url('bonto-regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Facade-Quest';
+    src: url('Facade-Ouest.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'VG5000-Regular';
+    src: url('VG5000-Regular_web.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'SquareMono-Regular';
+    src: url('SquareMono-Regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gueta-Bold';
+    src: url('Gueta-Bold.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Mega-Meta';
+    src: url('Mega-Meta.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Negatif-Regular';
+    src: url('Negatif-Regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'outward-block';
+    src: url('outward-block-webfont.woff') format('woff');
+  }
+ 
+  
+  .clock {
+    text-align: center; 
+    align-items: right;
+  }
+
+  .time {
+    padding-top: 40px;
+  }
+
+ 
+
+  
+
+  #playSanDiego {
+    color: black; 
+  }
+
+  #playHongKong {
+    color: white;
+  }
+  
+ .playTime { 
+  font-size: 18px;
+  }
+  
+  /* Additional styling for clock labels */
+  .clock.san.diego p {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .clock.boston p {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .clock.london p {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .clock.berlin p {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .clock.naples p {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .clock.kaliningrad p {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .clock.wroclaw p {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .clock.dombay p {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .clock.hongkong p {
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+  }
+
+  .svg-image-sandiego {
+    width: 500px; /* Adjust width as needed */
+    height: 500px; 
+    display: fixed;/* Maintain aspect ratio */
+  }
+
+.svg-image-boston {
+    width: 800px; /* Adjust width as needed */
+    height: 500px; 
+    display: fixed;/* Maintain aspect ratio */
+  }
+
+.svg-image-london {
+    width: 500px; /* Adjust width as needed */
+    height: 500px; 
+    display: fixed;/* Maintain aspect ratio */
+}
+
+.svg-image-berlin {
+  width: 800px; /* Adjust width as needed */
+  height: 500px; 
+  display: fixed;/* Maintain aspect ratio */
+}
+
+.svg-image-naples {
+  width: 800px; /* Adjust width as needed */
+  height: 500px; 
+  display: fixed;/* Maintain aspect ratio */
+}
+
+.svg-image-kaliningrad {
+  width: 500px; /* Adjust width as needed */
+  height: 500px; 
+  display: fixed;/* Maintain aspect ratio */
+}
+
+.svg-image-wroclaw {
+  width: 500px; /* Adjust width as needed */
+  height: 500px; 
+  display: fixed;/* Maintain aspect ratio */
+}
+
+
+.svg-image-dombay {
+  width: 500px; /* Adjust width as needed */
+  height: 500px; 
+  display: fixed;/* Maintain aspect ratio */
+}
+
+.svg-image-hongkong {
+  width: 500px; /* Adjust width as needed */
+  height: 500px; 
+  display: fixed;/* Maintain aspect ratio */
+}
+
+.svg-image-arrow {
+  width: 300px; /* Adjust width as needed */
+  height: 60px; 
+  display: fixed;/* Maintain aspect ratio */
+}
+
+.initial {
+  text-align: center; 
+  align-items: center;
+}
+
+
+.clock.san.diego {
+  font-family: SquareMono-Regular;
+  display: fixed;
+  text-align: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  /* Add specific styles for the Berlin clock */
+}
+
+.clock.boston {
+  font-family: SquareMono-Regular;
+  display: fixed;
+  text-align: center;
+  justify-content: center;
+  width: 800px;
+  height: 500px;
+  
+}
+
+  /* London Clock */
+.clock.london {
+  font-family: SquareMono-Regular;
+  display: fixed;
+  text-align: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  
+}
+
+/* Berlin Clock */
+.clock.berlin {
+  font-family: SquareMono-Regular;
+  display: fixed;
+  text-align: center;
+  justify-content: center;
+  width: 800px;
+  height: 500px;
+  
+}
+
+/* Naples Clock */
+.clock.naples {
+  font-family: SquareMono-Regular;
+  display: fixed;
+  text-align: center;
+  justify-content: center;
+  width: 800px;
+  height: 500px;
+  
+}
+
+/* Kaliningrad Clock */
+.clock.kaliningrad {
+  font-family: SquareMono-Regular;
+  display: fixed;
+  text-align: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  
+}
+
+/* Wroclaw Clock */
+.clock.wroclaw {
+  font-family: SquareMono-Regular;
+  display: fixed;
+  text-align: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+}
+
+.clock.dombay {
+  font-family: SquareMono-Regular;
+  display: fixed;
+  text-align: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+}
+/* Hong Kong Clock */
+.clock.hongkong {
+  font-family: SquareMono-Regular;
+  display: fixed;
+  text-align: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+ 
+}
+
+
+#timeSanDiego {
+  width: 500px;
+  height: 1200px;
+}
+
+#timeKaliningrad {
+  width: 500px;
+  height: 1200px;
+}
+
+#timeLondon {
+  width: 500px;
+  height: 1200px;
+}
+
+#timeBerlin {
+  width: 800px;
+  height: 1200px;
+}
+
+#timeNaples {
+  width: 800px;
+  height: 1200px;
+}
+
+#timeBerlin {
+  width: 800px;
+  height: 1200px;
+}
+
+#timeBoston {
+  width: 800px;
+  height: 1200px;
+}
+
+#timeWroclaw {
+  width: 500px;
+  height: 1200px;
+}
+
+#timeDombay {
+  width: 500px;
+  height: 1200px;
+}
+
+#timeHongKong {
+  width: 500px;
+  height: 1200px;
+}
+
+
+.distance {
+  font-family: SquareMono-Regular;
+  display: fixed;
+  text-align: center;
+  justify-content: center;
+  width: 800px;
+  height: 1000px;
+  background-color: greenyellow;
+}
+
+
+.distance p {
+  padding: 10px;
+  font-size: 12px;
+  margin-top: 460px;
+  font-family: SquareMono-Regular;
+}
