@@ -56,16 +56,40 @@ body {
     padding-top: 40px;
   }
 
- 
+  #playLondon {
+    color: blue;
+  }
 
-  
+  #playWroclaw {
+    color: blue;
+  }
+
+  #playKaliningrad {
+    color: blue;
+  }
+
+  #playNaples {
+    color: blue;
+  }
+
+  #playDombay {
+    color: blue;
+  }
+
+  #playBerlin {
+    color: blue;
+  }
+
+  #playBoston {
+    color: blue;
+  }
 
   #playSanDiego {
-    color: black; 
+    color: blue;
   }
 
   #playHongKong {
-    color: white;
+    color: blue;
   }
   
  .playTime { 
@@ -76,47 +100,55 @@ body {
   .clock.san.diego p {
     font-size: 12px;
     padding: 10px;
+    color: blue;
   }
 
   .clock.boston p {
     font-size: 12px;
     padding: 10px;
+    color: blue;
   }
 
   .clock.london p {
     font-size: 12px;
     padding: 10px;
+    color: blue;
   }
 
   .clock.berlin p {
     font-size: 12px;
     padding: 10px;
+    color: blue;
   }
 
   .clock.naples p {
     font-size: 12px;
     padding: 10px;
+    color: blue;
   }
 
   .clock.kaliningrad p {
     font-size: 12px;
     padding: 10px;
+    color: blue;
   }
 
   .clock.wroclaw p {
     font-size: 12px;
     padding: 10px;
+    color: blue;
   }
 
   .clock.dombay p {
     font-size: 12px;
     padding: 10px;
+    color: blue;
   }
 
   .clock.hongkong p {
     font-size: 12px;
     padding: 10px;
-    color: white;
+    color: blue;
   }
 
   .svg-image-sandiego {
