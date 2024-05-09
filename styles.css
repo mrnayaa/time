@@ -152,7 +152,7 @@ body {
   }
 
   .svg-image-sandiego {
-    width: 500px; /* Adjust width as needed */
+    width: 700px; /* Adjust width as needed */
     height: 500px; 
     display: fixed;/* Maintain aspect ratio */
   }
@@ -223,7 +223,7 @@ body {
   display: fixed;
   text-align: center;
   justify-content: center;
-  width: 500px;
+  width: 700px;
   height: 500px;
   /* Add specific styles for the Berlin clock */
 }
@@ -313,7 +313,7 @@ body {
 
 
 #timeSanDiego {
-  width: 500px;
+  width: 700px;
   height: 1200px;
 }
 
@@ -370,7 +370,7 @@ body {
   justify-content: center;
   width: 800px;
   height: 1000px;
-  background-color: greenyellow;
+ 
 }
 
 
@@ -378,5 +378,34 @@ body {
   padding: 10px;
   font-size: 12px;
   margin-top: 460px;
+  font-family: SquareMono-Regular;
+}
+
+.intro {
+  font-family: SquareMono-Regular;
+  display: fixed;
+  width: 800px;
+  height: 1000px;
+  background-color: blue;
+  
+}
+
+.intro h1 {
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 20px;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  font-family: SquareMono-Regular;
+}
+
+.intro p {
+  padding: 50px;
+  font-size: 12px;
+  margin-top: 20px;
+  width: 300px;
+  line-height: 2em;
+  text-align: left;
   font-family: SquareMono-Regular;
 }
