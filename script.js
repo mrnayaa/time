@@ -809,7 +809,7 @@ setInterval(updateBackgroundHongKong, 60 * 60 * 1000); // Update every hour
 
 function updateSvgImageSanDiego() {
   const currentHour = new Date().getUTCHours() - 7; // Berlin is UTC+2
-  const isDaytime = currentHour >= 9 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
+  const isDaytime = currentHour >= 7 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
 
   // Determine the SVG image path based on the time of day
   const svgImagePath = isDaytime ? 'sandiego.svg' : 'sandiego_night.svg';
@@ -825,7 +825,7 @@ setInterval(updateSvgImageSanDiego, 60 * 60 * 1000); // Update every hour
 
 function updateSvgImageBoston() {
   const currentHour = new Date().getUTCHours() - 4; // Berlin is UTC+2
-  const isDaytime = currentHour >= 9 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
+  const isDaytime = currentHour >= 7 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
 
   // Determine the SVG image path based on the time of day
   const svgImagePath = isDaytime ? 'boston.svg' : 'boston_night.svg';
@@ -844,7 +844,7 @@ setInterval(updateSvgImageBoston, 60 * 60 * 1000); // Update every hour
 
 function updateSvgImageLondon() {
   const currentHour = new Date().getUTCHours() + 1; // Get current UTC hour
-  const isDaytime = currentHour >= 9 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
+  const isDaytime = currentHour >= 7 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
 
   // Determine the SVG image path based on the time of day
   const svgImagePath = isDaytime ? 'london.svg' : 'london_night.svg';
@@ -861,7 +861,7 @@ setInterval(updateSvgImageLondon, 60 * 60 * 1000); // Update every hour
 
 function updateSvgImageBerlin() {
   const currentHour = new Date().getUTCHours() + 2; // Berlin is UTC+2
-  const isDaytime = currentHour >= 9 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
+  const isDaytime = currentHour >= 7 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
 
   // Determine the SVG image path based on the time of day
   const svgImagePath = isDaytime ? 'berlin.svg' : 'berlin_night.svg';
@@ -876,7 +876,7 @@ setInterval(updateSvgImageBerlin, 60 * 60 * 1000); // Update every hour
 
 function updateSvgImageNaples() {
   const currentHour = new Date().getUTCHours() + 2; // Berlin is UTC+2
-  const isDaytime = currentHour >= 9 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
+  const isDaytime = currentHour >= 7 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
 
   // Determine the SVG image path based on the time of day
   const svgImagePath = isDaytime ? 'naples.svg' : 'naples_night.svg';
@@ -892,7 +892,7 @@ setInterval(updateSvgImageNaples, 60 * 60 * 1000); // Update every hour
 
 function updateSvgImageWroclaw() {
   const currentHour = new Date().getUTCHours() + 2; // Berlin is UTC+2
-  const isDaytime = currentHour >= 9 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
+  const isDaytime = currentHour >= 7 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
 
   // Determine the SVG image path based on the time of day
   const svgImagePath = isDaytime ? 'wroclaw.svg' : 'wroclaw_night.svg';
@@ -908,7 +908,7 @@ setInterval(updateSvgImageWroclaw, 60 * 60 * 1000); // Update every hour
 
 function updateSvgImageKaliningrad() {
   const currentHour = new Date().getUTCHours() + 2; // Berlin is UTC+2
-  const isDaytime = currentHour >= 9 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
+  const isDaytime = currentHour >= 7 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
 
   // Determine the SVG image path based on the time of day
   const svgImagePath = isDaytime ? 'kaliningrad.svg' : 'kaliningrad_night.svg';
@@ -923,7 +923,7 @@ setInterval(updateSvgImageKaliningrad, 60 * 60 * 1000); // Update every hour
 
 function updateSvgImageDombay() {
   const currentHour = new Date().getUTCHours() + 3; // Berlin is UTC+2
-  const isDaytime = currentHour >= 9 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
+  const isDaytime = currentHour >= 7 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
 
   // Determine the SVG image path based on the time of day
   const svgImagePath = isDaytime ? 'dombay.svg' : 'dombay_night.svg';
@@ -940,7 +940,7 @@ setInterval(updateSvgImageDombay, 60 * 60 * 1000); // Update every hour
 
 function updateSvgImageHongKong() {
   const currentHour = new Date().getUTCHours() + 8; 
-  const isDaytime = currentHour >= 9 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
+  const isDaytime = currentHour >= 7 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
 
   // Determine the SVG image path based on the time of day
   const svgImagePath = isDaytime ? 'hongkong.svg' : 'hongkong_night.svg';
@@ -959,7 +959,7 @@ setInterval(updateSvgImageHongKong, 60 * 1000); // Update every hour
 
 function updateSvgImageKaliningrad() {
   const currentHour = new Date().getUTCHours() + 2; // Berlin is UTC+2
-  const isDaytime = currentHour >= 9 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
+  const isDaytime = currentHour >= 7 && currentHour < 21; // Assume daytime between 6 AM and 6 PM
 
   // Determine the SVG image path based on the time of day
   const svgImagePath = isDaytime ? 'kaliningrad.svg' : 'kaliningrad_night.svg';
